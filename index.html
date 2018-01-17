@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>TEXACO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+    <div id="bg-side-menu">
+        <ul class="side-menu">
+            <li>
+                <a href="#">A TEXACO</a>
+            </li>
+            <li>
+                <a href="#">CARROS</a>
+            </li>
+            <li>
+                <a href="#">MOTOS</a>
+            </li>
+            <li>
+                <a href="#">COMERCIAL</a>
+            </li>
+            <li>
+                <a href="#">CHEVRON BUSINESS POINT</a>
+            </li>
+            <li>
+                <a href="login.html">CANAL CLIENTE</a>
+            </li>
+            <li>
+                <a href="form.html">Fale Conosco</a>
+            </li>
+            <li>
+                <a id="close-side-menu" href="#">
+                    <i class="fa fa-close"></i> exit</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="img/header/LOGO.png" alt="logo-texaco">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <nav class="nav-login">
+                    <a class="nav-login-item" href="#">CHEVRON BUSINESS POINT</a> |
+                    <a class="nav-login-item" href="login.html">CANAL CLIENTE</a>
+                </nav>
+                <ul class="nav navbar-nav navbar-right box-icons">
+                    <li>
+                        <a class="nav-icons-item" href="#">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="open-side-menu" class="nav-icons-item" href="#">
+                            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right nav-menu">
+                    <li>
+                        <a class="nav-menu-item" href="#">A TEXACO</a>
+                    </li>
+                    <li>
+                        <a class="nav-menu-item" href="#">CARROS</a>
+                    </li>
+                    <li>
+                        <a class="nav-menu-item" href="#">MOTOS</a>
+                    </li>
+                    <li>
+                        <a class="nav-menu-item" href="#">COMERCIAL</a>
+                    </li>
+
+                    <li class="show-mobile">
+                        <a class="nav-menu-item" href="login.html">CANAL CLIENTE</a>
+                    </li>
+                    <li class="show-mobile">
+                        <a class="nav-menu-item" href="form.html">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mainCarousel" data-slide-to="1"></li>
+            <li data-target="#mainCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active carousel-box-img">
+                <img class="carousel-img" src="img/main-carousel/car2.2.png" alt="Image">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">STOCK CAR AO VIVO</h1>
+                    <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <br> Donec nisl ipsum, laoreet nec dolor a, pellentesque auctor elit.</p>
+                    <button href="#" class="button">
+                        <span id="buttonText">conheça</span>
+                        <span class="buttonIcon"> + </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="item carousel-box-img">
+                <img class="carousel-img" src="img/main-carousel/car1.2.png" alt="Image">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">STOCK CAR AO VIVO</h1>
+                    <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <br> Donec nisl ipsum, laoreet nec dolor a, pellentesque auctor elit.</p>
+                    <button href="#" class="button">
+                        <span id="buttonText">conheça</span>
+                        <span class="buttonIcon"> + </span>
+                    </button>
+                </div>
+            </div>
+            <div class="item carousel-box-img">
+                <img class="carousel-img" src="img/main-carousel/sample1.png" alt="Image">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">STOCK CAR AO VIVO</h1>
+                    <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <br> Donec nisl ipsum, laoreet nec dolor a, pellentesque auctor elit.</p>
+                    <button href="#" class="button">
+                        <span id="buttonText">conheça</span>
+                        <span class="buttonIcon"> + </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="row bg-products">
+            <div class="col-md-6 products-select-title">
+                <h2 style="margin-top: 30px"> ESCOLHA
+                    <strong>SEU CAMINHO:</strong>
+                </h2>
+            </div>
+            <div class="col-md-6">
+                <div class="sel-way">
+                    <button class="btn-sel-way">
+                        <i class="fa fa-automobile"></i>
+                    </button>
+                    CARRO
+                </div>
+                <div class="sel-way">
+                    <button class="btn-sel-way">
+                        <i class="fa fa-motorcycle"></i>
+                    </button>
+                    MOTO
+                </div>
+                <div class="sel-way">
+                    <button class="btn-sel-way">
+                        <i class="fa fa-truck"></i>
+                    </button>
+                    COMERCIAL
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--show oil products -->
+    <div class="container-fluid oil-products-carousel">
+        <div class="row">
+
+            <div class="col-md-12 show-products">
+                <div class="oil-products-titles">
+                    <h1 id="oil-products-title">PARA
+                        <br> SEU
+                        <span id="oil-products-super-title">CARRO</span>
+                    </h1>
+                </div>
+                <div class="oil-products-elm">
+                    <p id="oil-products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ipsum, laoreet nec dolor a, pellentesque
+                        auctor elit. Donec nisl ipsum,
+                        <strong>laoreet nec dolor a</strong>, pellentesque auctor elit. Lorem ipsum dolorsit amet, consectetur adipiscing
+                        elit. Donec nisl ipsum, laoreet nec dolor a, pellentesque auctor elit.</p>
+                    <button type="button" class="oil-products-btn-show-all">Ver todos produtos</button>
+                </div>
+
+                <div id="productsCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner carousel-prod">
+                        <div class="item active caroseul-prod-init">
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 4.png">
+                                <button id="btn-show-desc" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod" class="prod-desc">
+                                    <button id="btn-hide-desc" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 5.png">
+                                <button id="btn-show-desc1" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod1" class="prod-desc">
+                                    <button id="btn-hide-desc1" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 6.png">
+                                <button id="btn-show-desc2" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod2" class="prod-desc">
+                                    <button id="btn-hide-desc2" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                        <ul>
+                                            <br>
+                                            <button class="btn btn-default">DETALHES |
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 5.png">
+                                <button id="btn-show-desc3" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod3" class="prod-desc">
+                                    <button id="btn-hide-desc3" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 4.png">
+                                <button id="btn-show-desc4" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod4" class="prod-desc">
+                                    <button id="btn-hide-desc4" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 5.png">
+                                <button id="btn-show-desc7" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod7" class="prod-desc">
+                                    <button id="btn-hide-desc7" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 6.png">
+                                <button id="btn-show-desc5" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod5" class="prod-desc">
+                                    <button id="btn-hide-desc5" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="caroseul-prod-img">
+                                <img class="img-prod-carousel" src="img/products/Layer 4.png">
+                                <button id="btn-show-desc6" class="btn-know-prod pop-prod">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                                <div id="desc-prod6" class="prod-desc">
+                                    <button id="btn-hide-desc6" class="btn-close-desc">
+                                        <i class="fa fa-close"></i>
+                                    </button>
+                                    <h5>
+                                        <strong> PRODS FULL SYNTHETIC MOTOR OIL SAE 0W-20</strong>
+                                    </h5>
+                                    <ul>
+                                        <li>Maximização da economia</li>
+                                        <li>Excelente proteção</li>
+                                        <li>Longa vida útil do motor</li>
+                                    </ul>
+                                    <button class="btn-more-detail">
+                                        <span>detalhes</span>
+                                        <span class="btn-more-detail-icon"> + </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button type="button" id="btnProd" class="btn btn-link btn-select-prod">
+                    <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" id="btnProd1" class="btn btn-link btn-select-prod">
+                    <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-link btn-select-prod">
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Painel Oil products para mobile -->
+    <div id="prodtCarousel" class="carousel slide" data-ride="carousel" data-interval=false>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active carousel-box-img-prod">
+                <img class="carousel-img-mobile" src="img/products/Layer 4.png">
+                <div class="carousel-caption">
+                    <h3>Sell $</h3>
+                    <p>Money Money.</p>
+                </div>
+            </div>
+
+            <div class="item carousel-box-img-prod">
+                <img class="carousel-img-mobile" src="img/products/Layer 5.png" alt="Image">
+                <div class="carousel-caption">
+                    <h3>More Sell $</h3>
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+            <div class="item carousel-box-img-prod">
+                <img class="carousel-img-mobile" src="img/products/Layer 6.png" alt="Image">
+                <div class="carousel-caption">
+                    <h3>More Sell $</h3>
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+            <div class="item carousel-box-img-prod">
+                <img class="carousel-img-mobile" src="img/main-carousel/sample1.png" alt="Image">
+                <div class="carousel-caption">
+                    <h3>More Sell $</h3>
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#prodtCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#prodtCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Ursa painel -->
+    <div class="container-fluid">
+        <div class="row painel-ursa">
+            <div class="col-sm-8 col-sm-offset-2 ursa-content">
+                <div id="ursa-header">
+                    <span id="ursa-title">Calculadora</span>
+                    <img src="img/banner-ursa/Shape 10.png " />
+                </div>
+                <p id="ursa-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin
+                    enim. Vivamus ultrices purus vel nibh efficitur rhoncus. Pellentesque non iaculis sapien, sit amet interdum
+                    ligula. Etiam viverra dictum sem vel auctor.
+                </p>
+                <button href="#" class="button">
+                    <span id="buttonText">conheça</span>
+                    <span class="buttonIcon"> + </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 bg-app" style="padding: 0px;">
+                <img id="app-img-havoline" src="img/search-dealer/Layer 51.png" />
+                <a id="app-img-apple" href="#">
+                    <img src="img/search-dealer/Layer 38.png" />
+                </a>
+                <a id="app-img-android" href="#">
+                    <img src="img/search-dealer/Layer 39.png" />
+                </a>
+
+                <p id="app-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin
+                    enim.
+                </p>
+                <img id="app-img-apps" src="img/search-dealer/Layer 52.png" style="width:100%" />
+            </div>
+            <div class="col-sm-6 bg-search-dealer" style="padding:0px 0px;">
+                <h4 id="search-dealer-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu</h4>
+                <h5 id="search-dealer-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                <button class="btn-select-state">
+                    Escolha o Estado
+                    <span class="btn-select-icon">
+                        <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                </button>
+                <button class="btn-select-state">
+                    Selecione a Cidade
+                    <span class="btn-select-icon">
+                        <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                </button>
+                <button class="button" style="margin-left: 15%">
+                    <span id="buttonText">buscar distribuidor</span>
+                    <span class="buttonIcon" style="font-size:14px; color:rgb(253, 0, 13);">
+                        <span class="glyphicon glyphicon-triangle-right"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <h2 class="titles-various">Fique
+            <strong>por dentro</strong>
+        </h2>
+        <h5 class="subtitle-various">
+            <a href="#">Ir para o Blog</a>
+        </h5>
+        <div class="row" style="padding:0px 0px;">
+            <div class="col-sm-3">
+                <div class="bg-new-1">
+                    <div class="bg-new-text">
+                        <h3 class="new-title">
+                            Lorem ipsum dolor sit, consectetur adipiscing elit
+                        </h3>
+                        <div class="new-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                            Suscipit quis dolor eu, tempus sollicitudin enim.
+                        </div>
+                        <span class="new-caption">Comercial</span>
+                        <button class="new-button">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="bg-new-2">
+                    <div class="bg-new-text">
+                        <h3 class="new-title">
+                            Lorem ipsum dolor sit, consectetur adipiscing elit
+                        </h3>
+                        <div class="new-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                            Suscipit quis dolor eu, tempus sollicitudin enim.
+                        </div>
+                        <span class="new-caption">evento</span>
+                        <button class="new-button">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="bg-new-3">
+                    <div class="bg-new-text">
+                        <h3 class="new-title">
+                            Lorem ipsum dolor sit, consectetur adipiscing elit
+                        </h3>
+                        <div class="new-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                            Suscipit quis dolor eu, tempus sollicitudin enim.
+                        </div>
+                        <span class="new-caption">lançamento</span>
+                        <button class="new-button">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="bg-new-4">
+                    <div class="bg-new-text">
+                        <h3 class="new-title">
+                            Lorem ipsum dolor sit, consectetur adipiscing elit
+                        </h3>
+                        <div class="new-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                            Suscipit quis dolor eu, tempus sollicitudin enim.
+                        </div>
+                        <span class="new-caption">Comercial</span>
+                        <button class="new-button">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <h2 class="titles-various">Nossas
+            <strong>Redes Sociais</strong>
+        </h2>
+        <div class="row" style="padding:0px;">
+            <div class="col-sm-4 ">
+                <div class="bg-post">
+                    <a href="#" title="#NaEstradaSomosUrsa">
+                        <img src="img/social-stream/Layer 45.png" style="width: 100%" />
+                    </a>
+                    <h5 class="new-title">
+                        #NaEstradaSomosUrsa
+                    </h5>
+                    <div class="post-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                    </div>
+                    <span class="post-data">
+                        <i class="fa fa-comments" style="font-size:12px"></i>
+                        2,650
+                        <i class="fa fa-eye" style="font-size:12px"></i>
+                        1.623,345
+                    </span>
+                    <a href="#" class="post-icon-social">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="bg-post">
+                    <a href="#" title="#NaEstradaSomosUrsa">
+                        <img src="img/social-stream/Layer 44.png" style="width: 100%" />
+                    </a>
+                    <h5 class="new-title">
+                        #NaEstradaSomosUrsa
+                    </h5>
+                    <div class="post-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                    </div>
+                    <span class="post-data">
+                        <i class="fa fa-comments" style="font-size:12px"></i>
+                        2,650
+                        <i class="fa fa-eye" style="font-size:12px"></i>
+                        1.623,345
+                    </span>
+                    <a href="#" class="post-icon-social">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="bg-post">
+                    <a href="#" title="#NaEstradaSomosUrsa">
+                        <img src="img/social-stream/Layer 32.png" style="width: 100%" />
+                    </a>
+                    <h5 class="new-title">
+                        #NaEstradaSomosUrsa
+                    </h5>
+                    <div class="post-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu, tempus sollicitudin enim.
+                    </div>
+                    <span class="post-data">
+                        <i class="fa fa-comments" style="font-size:12px"></i>
+                        2,650
+                        <i class="fa fa-eye" style="font-size:12px"></i>
+                        1.623,345
+                    </span>
+                    <a href="#" class="post-icon-social">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h5 class="bt-show-more">
+            <a href="#">Ver mais</a>
+        </h5>
+    </div>
+
+
+    <footer class="container-fluid text-center">
+        <div class="container">
+            <div class="row  bg-footer-1">
+                <div class="col-sm-2 " style="padding:0px;">
+                    <ul>
+                        <li>
+                            <a href="#">A texaco</a>
+                        </li>
+                        <li>
+                            <a href="#">Carros</a>
+                        </li>
+                        <li>
+                            <a href="#">Motos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2" style="padding:0px;">
+                    <ul class="footer-comercial">
+                        <li>
+                            <a href="#">Comercial</a>
+                        </li>
+                        <li>
+                            <a href="#">patrocínio</a>
+                        </li>
+                        <li>
+                            <a href="#">Distribuidores</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3" style="padding-left: 40px;">
+                    <ul class="footer-menu-contt">
+                        <li>
+                            <a href="#">Imprensa</a>
+                        </li>
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#">Canal Cliente</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu-contt1" style="">
+                        <li>
+                            <a href="#">Business Point</a>
+                        </li>
+                        <li>
+                            <a href="#">Envie seu CV</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5">
+                    <img src="img/footer/hand1.png" style="float:left;" />
+                    <div class="footer-desc-app">
+                        <h3 class="footer-desc-app-title">Aplicativo
+                            <strong>havoline</strong>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl felis, suscipit quis dolor eu,
+                            tempus sollicitudin enim.
+                        </p>
+                        <a href="#" class="footer-desc-app-icon">
+                            <img src="img/footer/Layer 38.png" />
+                        </a>
+                        <a href="#" class="footer-desc-app-icon">
+                            <img src="img/footer/Layer 39.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row  bg-footer-2">
+            <div class="col-sm-4 ">
+                <a class="footer-icon-social" href="#">
+                    <img src="img/footer/Shape 8.png" /> </a>
+                <a class="footer-icon-social" href="#">
+                    <img src="img/footer/Shape 9.png" /> </a>
+                <a class="footer-icon-social" href="#">
+                    <img src="img/footer/Layer 43.png" /> </a>
+            </div>
+            <div class="col-sm-4">
+                <p style="padding-top:10px">Atendimento 0800 704 2230 • 8h às 12h - 13h30 às 17h30</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/footer/jogue-limpo.png" />
+            </div>
+        </div>
+        <div class="row  bg-footer-3">
+            <h6>Texaco © 2017 . Todos os direitos reservados. Todas as marcas são de propriedade da Chevron Intellectual Property
+                LLC.
+                <br>
+                <a href="#">Termo de Uso </a>|
+                <a href="#">Política de Privacidade</a> | ​​​​​​​​​​​​​​
+                <a href="#">Texaco.com</a>
+            </h6>
+            <h6>Produzido por Agência Frog</h6>
+            <br>
+            <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP" style="align-self: center;">
+                <i class="fa fa-angle-up footer-icon-totop"></i>
+            </a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
